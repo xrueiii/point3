@@ -8,8 +8,8 @@ export default function AvailableButton() {
     return (
         <>
         {chosen ? (
-            <button className="px-4 py-4 rounded-md w-full text-white text-center bg-red-400 hover:bg-red-800" onClick={() => setChosen(false)}>Chosen</button>
-            ) : (<button className="px-4 py-4 rounded-md w-full text-white text-center bg-column3 hover:bg-green-800" onClick={() => setChosen(true)}>Available</button>)}
+            <button className="lg:text-lg text-sm h-[15%] flex justify-center items-center rounded-md w-full text-white text-center bg-red-800 hover:before:content-['取消'] hover:after:content-[''] after:content-['已選擇'] hover:bg-red-500" onClick={() => setChosen(false)}></button>
+            ) : (<button className="lg:text-lg text-sm h-[15%] flex justify-center items-center rounded-md w-full text-center bg-amber-100 hover:before:content-['選擇'] hover:after:content-[''] after:content-['可預約'] hover:bg-amber-200" onClick={() => setChosen(true)}></button>)}
         </>   
     );
 }

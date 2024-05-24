@@ -20,7 +20,7 @@ const config: Config = {
     extend: {
       colors: {
         brand: "#1e9bf0",
-        column1: "#bba487",
+        column1: "#3c392f",
         column2: "#5b3e31",
         column3: '#a9bbab',
       },
