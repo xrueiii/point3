@@ -1,6 +1,6 @@
-import PhotoButtonBig from "../_components/PhotoButtonBig";
-import PhotoButtonShow from "../_components/PhotoButtonShow";
-import PhotoButtonSmall from "../_components/PhotoButtonSmall";
+import PhotoButtonBig from "./_components/PhotoButtonBig";
+import PhotoButtonShow from "./_components/PhotoButtonShow";
+import PhotoButtonSmall from "./_components/PhotoButtonSmall";
 
 export default async function IntroductionPage() {
   return (
@@ -10,7 +10,7 @@ export default async function IntroductionPage() {
           <div className="w-3/5 h-full flex justify-center items-center">
             <PhotoButtonSmall />
           </div>
-          <div className=" w-2/5 h-full flex-col flex justify-center items-center space-y-4">
+          <div className="w-2/5 h-full flex-col flex justify-center items-center space-y-4">
             <div className="text-yellow-500 text-2xl font-semibold">
               練團室－小練
             </div>
