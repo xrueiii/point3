@@ -22,13 +22,12 @@ export default function HeaderBar() {
   };
 
   const handleClickContactPage = () => {
-      setClicked(4);
-      route.push(`/contact`);
-  }
-
+    setClicked(4);
+    route.push(`/contact`);
+  };
 
     return (
-        <div className="bg-amber-100 w-screen flex justify-center fixed top-8 z-10">
+        <div className="bg-amber-100 w-screen flex justify-center fixed top-8 z-50">
             <div className="w-2/3 justify-between flex">
                 <button className={cn("hover:shadow-md hover:bg-amber-200 py-4 w-1/6", clicked === 1 && "bg-yellow-500 text-white")} onClick={handleClickHomePage}>
                     <h1 className="lg:text-xl text-sm">
