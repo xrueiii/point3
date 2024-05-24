@@ -20,6 +20,9 @@ const config: Config = {
     extend: {
       colors: {
         brand: "#1e9bf0",
+        column1: "#bba487",
+        column2: "#5b3e31",
+        column3: '#a9bbab',
       },
       fontFamily: {
         sans: ["var(--noto-sans)", ...defaultTheme.fontFamily.sans],

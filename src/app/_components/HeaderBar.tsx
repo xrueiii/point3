@@ -21,51 +21,37 @@ export default function HeaderBar() {
     route.push(`/reservation`);
   };
 
-  const handleClickTimetablePage = () => {
-    setClicked(4);
-    route.push(`/timetable`);
-  };
+  const handleClickContactPage = () => {
+      setClicked(4);
+      route.push(`/contact`);
+  }
+
 
   return (
-    <div className="bg-amber-100 w-screen flex justify-center fixed top-8 z-50">
-      <div className="w-2/3 justify-between flex">
-        <button
-          className={cn(
-            "hover:shadow-md hover:bg-amber-200 py-4 w-1/6",
-            clicked === 1 && "bg-yellow-500 text-white"
-          )}
-          onClick={handleClickHomePage}
-        >
-          <h1 className="text-xl">首頁</h1>
-        </button>
-        <button
-          className={cn(
-            "hover:shadow-md hover:bg-amber-200 py-4 w-1/6",
-            clicked === 2 && "bg-yellow-500 text-white"
-          )}
-          onClick={handleClickIntroductionPage}
-        >
-          <h1 className="text-xl">練團室介紹</h1>
-        </button>
-        <button
-          className={cn(
-            "hover:shadow-md hover:bg-amber-200 py-4 w-1/6",
-            clicked === 3 && "bg-yellow-500 text-white"
-          )}
-          onClick={handleClickReservationPage}
-        >
-          <h1 className="text-xl">練團室預約</h1>
-        </button>
-        <button
-          className={cn(
-            "hover:shadow-md hover:bg-amber-200 py-4 w-1/6",
-            clicked === 4 && "bg-yellow-500 text-white"
-          )}
-          onClick={handleClickTimetablePage}
-        >
-          <h1 className="text-xl">練團室時間表</h1>
-        </button>
+      <div className="bg-amber-100 w-screen flex justify-center fixed top-8 z-0">
+          <div className="w-2/3 justify-between flex">
+              <button className={cn("hover:shadow-md hover:bg-amber-200 py-4 w-1/6", clicked === 1 && "bg-yellow-500 text-white")} onClick={handleClickHomePage}>
+                  <h1 className="text-xl">
+                      首頁
+                  </h1>
+              </button>
+              <button className={cn("hover:shadow-md hover:bg-amber-200 py-4 w-1/6", clicked === 2 && "bg-yellow-500 text-white")} onClick={handleClickIntroductionPage}>
+                  <h1 className="text-xl">
+                      練團室介紹
+                  </h1>
+              </button>
+              <button className={cn("hover:shadow-md hover:bg-amber-200 py-4 w-1/6", clicked === 3 && "bg-yellow-500 text-white")} onClick={handleClickReservationPage}>
+                  <h1 className="text-xl">
+                      練團室預約
+                  </h1>
+              </button>
+              <button className={cn("hover:shadow-md hover:bg-amber-200 py-4 w-1/6", clicked === 4 && "bg-yellow-500 text-white")} onClick={handleClickContactPage}>
+                  <h1 className="text-xl">
+                      聯絡我們
+                  </h1>
+              </button>
+          </div>
       </div>
-    </div>
   );
 }
+
