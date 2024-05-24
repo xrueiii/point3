@@ -22,7 +22,7 @@ export default function PhotoButtonBig() {
 
   return (
     <>
-      <div className="relative flex flex-row justify-center items-center">
+      <div className="relative flex flex-row justify-center items-center ">
         <button
           onClick={handlePreviousImage}
           className="absolute -left-6 bg-gray-800 text-white px-2 py-1 flex justify-center items-center rounded-full w-12 h-12 bg-opacity-50"

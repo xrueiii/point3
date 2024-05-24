@@ -21,10 +21,10 @@ export default function HeaderBar() {
     route.push(`/reservation`);
   };
 
-    const handleClickContactPage = () => {
-        setClicked(4);
-        route.push(`/contact`);
-    }
+  const handleClickContactPage = () => {
+      setClicked(4);
+      route.push(`/contact`);
+  }
 
 
     return (

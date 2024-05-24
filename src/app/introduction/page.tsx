@@ -4,7 +4,7 @@ import PhotoButtonSmall from "../_components/PhotoButtonSmall";
 
 export default async function IntroductionPage() {
   return (
-    <div className="bg-black h-screen w-screen text-xl flex justify-center items-center">
+    <div className="bg-black h-screen w-screen text-xl flex justify-center items-center px-20">
       <div className="w-full h-full overflow-y-scroll py-32">
         <div className="w-full h-4/5 my-4 flex flex-row">
           <div className="w-3/5 h-full flex justify-center items-center">
