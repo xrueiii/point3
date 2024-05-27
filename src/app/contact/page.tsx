@@ -31,7 +31,7 @@ export default async function ContactPage() {
           <div className="bg-yellow-800 w-2/5 h-full flex-col flex justify-center space-y-2">
             <iframe
               src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d225.91559078113332!2d121.51904719907165!3d25.04596779988678!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442a972234c39f3%3A0x402337e236ffd578!2z5YyX6LuKMC4z6Z-z5qiC5pWZ5a6k!5e0!3m2!1szh-TW!2stw!4v1716560770849!5m2!1szh-TW!2stw"
-              className="border-0 w-full h-full max-w-md max-h-md"
+              className="border-0 w-full h-full max-w-2xl max-h-xl"
             ></iframe>
           </div>
         </div>
