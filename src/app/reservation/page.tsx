@@ -5,8 +5,8 @@ import Timetable from "./_components/Timetable";
 export default async function ReservationPage() {
   return (
     <>
-      <div className="bg-black min-h-screen w-screen text-xl py-32">
-        <div className="bg-reservationpage h-1/3 w-screen text-xl flex-col items-center px-16 py-8 text-white space-y-4">
+      <div className="bg-black h-screen w-screen text-xl py-32 overflow-scroll">
+        <div className="bg-reservationpage w-screen text-xl flex-col items-center px-16 py-8 text-white space-y-4">
           <div className="flex items-center justify-between">
             <h1 className="lg:text-7xl text-4xl text-yellow-500 font-medium animate-pulse-short delay-300">練團室預約</h1>
             <Image
@@ -30,7 +30,7 @@ export default async function ReservationPage() {
           <p className="text-amber-100 bg-column1 text-center px-2 py-1 lg:text-lg text-xs">請點擊下方時間表選擇預約時段</p>
 
         </div>
-        <div className="lg:w-3/4 w-full flex gap-4 px-8 lg:px-32 py-2 mx-auto h-20">
+        <div className="lg:w-3/4 w-full flex gap-4 px-8 lg:px-32 py-2 mx-auto h-[15%]">
                 <div className="w-1/6 flex justify-center rounded-md text-yellow-500 text-center font-semibold lg:text-2xl sm:text-base items-center">練團室 108</div>
                 <div className="flex justify-center rounded-md bg-column2 w-1/6 text-white text-center items-center lg:text-lg text-sm break-all">2024/5/22</div>
                 <div className="flex justify-center rounded-md  bg-column1 w-1/6 text-white text-center items-center lg:text-lg text-sm break-all">2024/5/23</div>

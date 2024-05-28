@@ -5,7 +5,7 @@ import ReservationButton from "./ReservationButton";
 export default function Selectors() {
     const [drumroom, setDrumroom] = useState("");
     return (
-        <div className="lg:flex space-y-4 px-8 lg:px-32 mt-4 py-8 justify-between w-full">
+        <div className="lg:flex px-8 lg:px-16 mt-4 py-8 justify-between w-full">
             <div className="flex gap-12 justify-between">
                 <select onChange={e => setDrumroom(e.target.value)} className="bg-transparent text-white rounded-lg px-4 py-2 border-2 border-white lg:text-lg text-sm">
                     <option value={0}>請選擇欲預約的練團室</option>
