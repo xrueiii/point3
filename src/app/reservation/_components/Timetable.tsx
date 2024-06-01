@@ -17,7 +17,7 @@ export default function Timetable({ date, room, availableTable, setValue, value 
   return (
     <>
     <div className="lg:w-3/4 w-full flex gap-4 px-8 lg:px-32 py-2 mx-auto h-20">
-        <div className="w-1/6 flex items-center justify-center rounded-md text-[#FFE900] font-semibold text-center lg:text-2xl sm:text-base">
+        <div className="w-1/6 flex items-center justify-center rounded-md text-[#FFE900] font-semibold text-center lg:text-lg sm:text-base">
           {roomInfo[1]}
         </div>
         {date.map((d) =>
