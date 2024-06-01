@@ -12,6 +12,6 @@ export default async function Home() {
           <p className="text-white lg:text-2xl text-base m-2">(02)2383 1780</p>
         </div>
       </div>
-    </div>
+    </div>  
   );
 }

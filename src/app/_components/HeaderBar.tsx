@@ -9,7 +9,7 @@ export default function HeaderBar() {
   const [clicked, setClicked] = useState(1);
   const handleClickHomePage = () => {
     setClicked(1);
-    route.push(`${publicEnv.NEXT_PUBLIC_BASE_URL}`);
+    route.push(`/`);
   };
   const handleClickIntroductionPage = () => {
     setClicked(2);
