@@ -47,7 +47,7 @@ export async function POST(request: NextRequest){
         from: 'point3.tw@gmail.com',
         to: email,
         subject: '0.3練團室預約成功通知！',
-        text: `${displayName}您好！\n您在${date},${span+10}:00~${span+11}:00預約${room.roomName}，預定成功。給我準時來歐~`
+        text: `${displayName}您好！\n您在${date},${span+10}:00~${span+11}:00預約${room.roomName}，預定成功。請記得在預約時間準時抵達~`
     };
 
     try {

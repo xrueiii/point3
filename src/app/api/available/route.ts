@@ -23,7 +23,7 @@ export async function POST(request: NextRequest){
     }
 
     const { roomId, date } = data as availableRequest;
-    var availableRoom = [0,0,1,1,1,1,1,1,1,1,1,1]
+    var availableRoom = [1,1,1,1,1,1,1,1,1,1,1,1]
 
     try {
         const temp = await db
