@@ -1,5 +1,3 @@
-Below is the complete `README.md` file code that you can use:
-
 # Music Classroom Reservation Platform
 
 A multi-user music classroom reservation platform with distinct user and admin roles. The platform features scheduling, room details, automated email notifications, and an admin dashboard for managing bookings.
